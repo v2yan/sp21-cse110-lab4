@@ -40,8 +40,10 @@
     E) false. True is converted to its numeric value 1, and 1 is not equal to 2. 
     F) true. Boolean(2) converts 2 to its boolean value, which is true, so since both operands are booleans and are true, === returns true. 
 15. The == operator does type conversions if the two operands are of different types before comparing while the === does not do type conversions before comparing, meaning if the two operands are of different types, === returns false.   
-17. The result is ```[2, 4, 6]```. The for loop in ```modifyArray``` iterates through each element in the input array ```[1, 2, 3]```, and passes it to the callback function ```doSomething```, which returns the element multiplied by 2. This result is then pushed onto the newArr, and the process repeats until all elements in the input array have been iterated through. 
-19. 1
-    4
-    3
-    2
+16. [16](./part1/part1b-question16.js)
+17. The result is ```[2, 4, 6]```. The for loop in ```modifyArray``` iterates through each element in the input array ```[1, 2, 3]```, and passes it to the callback function ```doSomething```, which returns the element multiplied by 2. This result is then pushed onto the newArr, and the process repeats until all elements in the input array have been iterated through.
+18. [18](./part1/part1b-question18.js)
+19. 1    
+    4   
+    3   
+    2  
