@@ -17,7 +17,7 @@
 8. The function returns ```[50, 100, 150]```. Like the variable ```finalPrice```, discounted is declared outside of the for loop, making it scoped within the function and thus, accessible throughout the whole function.
 9. The code will return an error because i is block-scoped, which means that it's only accessible within the for loop.
 10. ```console.log(length)``` will output 3 because prices.length is unchanging, so  ```const length = prices.length``` won't cause an error. Since ```length``` is declared outside of the for loop, it's scoped within the function, so it is accessible throughout the function. 
-11. The function will return an error because ```discounted``` is a const variable that is getting updated within the for loop; const variables cannot be reassigned after its initial assignment.
+11. The function returns ```[50, 100, 150]```. ```discounted``` is initialized as a const array, and we are allowed to push the discounted prices onto the array because we are not reassigning the variable. 
 12. A) student.name   
     B) student['Grad Year']   
     C) student.greeting()   
